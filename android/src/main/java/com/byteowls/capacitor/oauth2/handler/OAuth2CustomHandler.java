@@ -4,7 +4,7 @@ import android.app.Activity;
 import com.getcapacitor.PluginCall;
 
 /**
- * @author m.oberwasserlechner@byteowls.com
+ * @author m.oberwasserlechner@gg.com
  */
 public interface OAuth2CustomHandler {
 

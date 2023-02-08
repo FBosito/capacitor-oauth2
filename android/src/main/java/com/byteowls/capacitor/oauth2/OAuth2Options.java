@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author m.oberwasserlechner@byteowls.com
+ * @author m.oberwasserlechner@gg.com
  */
 public class OAuth2Options {
 

@@ -20,7 +20,7 @@ import java.net.URL;
 import java.util.Map;
 
 /**
- * @author m.oberwasserlechner@byteowls.com
+ * @author m.oberwasserlechner@gg.com
  */
 public class ResourceUrlAsyncTask extends AsyncTask<String, Void, ResourceCallResult> {
 

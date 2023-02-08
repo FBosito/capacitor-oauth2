@@ -3,7 +3,7 @@ package com.byteowls.capacitor.oauth2;
 import com.getcapacitor.JSObject;
 
 /**
- * @author m.oberwasserlechner@byteowls.com
+ * @author m.oberwasserlechner@gg.com
  */
 public class ResourceCallResult {
 

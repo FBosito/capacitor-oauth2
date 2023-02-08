@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Random;
 
 /**
- * @author m.oberwasserlechner@byteowls.com
+ * @author m.oberwasserlechner@gg.com
  */
 public abstract class ConfigUtils {
 

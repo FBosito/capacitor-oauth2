@@ -41,6 +41,7 @@ public class OAuth2ClientPlugin extends Plugin {
     private static final String PARAM_REDIRECT_URL = "redirectUrl";
     private static final String PARAM_SCOPE = "scope";
     private static final String PARAM_STATE = "state";
+    private static final String PARAM_DISABLE_CACHE_CONTROL_HEADER = "disableCacheControlHeader";
 
     private static final String PARAM_ACCESS_TOKEN_ENDPOINT = "accessTokenEndpoint";
     private static final String PARAM_PKCE_ENABLED = "pkceEnabled";
@@ -444,6 +445,7 @@ public class OAuth2ClientPlugin extends Plugin {
 
         o.setScope(ConfigUtils.trimToNull(ConfigUtils.getOverwrittenAndroidParam(String.class, callData, PARAM_SCOPE)));
         o.setState(ConfigUtils.trimToNull(ConfigUtils.getOverwrittenAndroidParam(String.class, callData, PARAM_STATE)));
+        o.setState(ConfigUtils.trimToNull(ConfigUtils.getOverwrittenAndroidParam(String.class, callData, PARAM_DISABLE_CACHE_CONTROL_HEADER)));
         if (o.getState() == null) {
             o.setState(ConfigUtils.getRandomString(20));
         }
